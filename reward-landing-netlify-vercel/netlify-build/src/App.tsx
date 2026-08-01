@@ -786,7 +786,7 @@ function LandingPage() {
 
 function App() {
   return (
-    <WouterRouter base={import.meta.env.BASE_URL.replace(/\/$/, '')}>
+    <WouterRouter base={const api = import.meta.env.VITE_API_URL;.BASE_URL.replace(/\/$/, '')}>
       <Switch>
         <Route path="/" component={LandingPage} />
         {/* We just serve the landing page on all routes for this single-page promo */}
