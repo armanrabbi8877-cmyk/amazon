@@ -29,7 +29,7 @@ npm run build
 ## Netlify Deploy করতে
 
 ### Option 1 — Drag & Drop (সবচেয়ে সহজ)
-1. `npm run build` রান করুন
+1. `npm run build` রান করুন         
 2. [netlify.com/drop](https://app.netlify.com/drop) এ যান
 3. `dist/` ফোল্ডারটি drag & drop করুন
 4. Done!
